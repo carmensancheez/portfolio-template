@@ -34,7 +34,7 @@ export default function Home() {
           />
           <CoverText>
             Hola soy Carmen, soy programadora. Me gusta mucho desarrollar
-            aplicaciones de escritorio, web y moviles. Mi parte favorita de 
+            aplicaciones de escritorio, web y móviles. Mi parte favorita de 
             ser programadora es aprender siempre algo nuevo para entregarle 
             un producto de calidad al cliente.
           </CoverText>
@@ -50,7 +50,7 @@ export default function Home() {
             position="Pasante en Redes"
             place="Altice Dominicana"
           >
-            Colocacion de fibras opticas en planos virtuales de la empresa
+            Colocación de fibras ópticas en planos virtuales de la empresa
           </ExperienceBox>
           <ExperienceBox
             date="Febrero-Julio 2020"
@@ -64,13 +64,13 @@ export default function Home() {
             position="TraineeSoftware Developer"
             place="okkralabs Inc"
           >
-            Desarrollo y mantenimiento de pagina web.
+            Desarrollo y mantenimiento de pagina web
           </ExperienceBox>
         </LeftColumn>
         <RightColumn>
           <SkillsList name="Educación" icon={FaGraduationCap}>
             <SkillsItem date="Agosto 2020" institution="Instituto Tecnológico de las Américas (ITLA)">
-              Tecnologia en Desarrollo De Software
+              Tecnología en Desarrollo De Software
             </SkillsItem>
           </SkillsList>
           <SkillsList name="Cursos">
@@ -131,13 +131,13 @@ export default function Home() {
           </SkillsList>
           <SkillsList name="Intereses" icon={FaFlagCheckered}>
             <SkillsItem>Inteligencia artificial</SkillsItem>
-            <SkillsItem>Desarrollo de aplicaciones moviles</SkillsItem>
+            <SkillsItem>Desarrollo de aplicaciones móviles</SkillsItem>
 
           </SkillsList>
           <SkillsList name="Idiomas" icon={BsChatFill}>
             <SkillsItem>Inglés (Avanzado)</SkillsItem>
             <SkillsItem>Español (Nativo)</SkillsItem>
-            <SkillsItem>Francés (Basico)</SkillsItem>
+            <SkillsItem>Francés (Básico)</SkillsItem>
           </SkillsList>
         </RightColumn>
       </Layout>
