@@ -61,7 +61,7 @@ export default function Home() {
           </ExperienceBox>
           <ExperienceBox
             date="Julio 2020-Actualidad"
-            position="TraineeSoftware Developer"
+            position="Trainee Software Developer"
             place="okkralabs Inc"
           >
             Desarrollo y mantenimiento de pagina web
