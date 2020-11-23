@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ada Lovelace - Portfolio</title>
+        <title>Carmen María Sánchez Tolentino - Portfolio</title>
         <link rel="icon" href="/favicon-96x96.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -28,61 +28,84 @@ export default function Home() {
       <Layout>
         <LeftColumn>
           <Header
-            name="Ada Lovelace"
-            position="Matemática y escritora"
-            profilePicture="/img/profile-pic.jpg"
+            name="Carmen María Sánchez Tolentino"
+            position="Programadora"
+            profilePicture="/img/foto 2x2.JPG"
           />
           <CoverText>
-            Hola soy Ada, la condesa de Lovelace. Soy una matemática y
-            escritora. Me interesan los modelos matemáticos en especial los
-            relacionados con el sistema nervioso humano. Considero que la
-            computación es más que números, creo que puede aplicarse a otros
-            campos como el arte y la música.
+            Hola soy Carmen, soy programadora. Me gusta mucho desarrollar
+            aplicaciones de escritorio, web y moviles. Mi parte favorita de 
+            ser programadora es aprender siempre algo nuevo para entregarle 
+            un producto de calidad al cliente.
           </CoverText>
           <ExperienceBox
-            date="Diciembre 1843"
-            position="Matemática"
-            place="Londres, Reino Unido"
+            date="Verano 2018"
+            position="Pasante de Desarrollo de Software"
+            place="Altice Dominicana"
           >
-            Escritura del primer algoritmo de computación
+            Desarrollo de interfaces para uso interno de la empresa
           </ExperienceBox>
           <ExperienceBox
-            date="Enero 1842"
-            position="Matemática"
-            place="Universidad de Londres, Reino Unido"
+            date="Agosto-Noviembre 2019"
+            position="Pasante en Redes"
+            place="Altice Dominicana"
           >
-            Traducción y mejora del articulo de la máquina analítica de Babbage
+            Colocacion de fibras opticas en planos virtuales de la empresa
+          </ExperienceBox>
+          <ExperienceBox
+            date="Febrero-Julio 2020"
+            position="Pasante en Desarrollo de Software"
+            place="Neural Technology Solutions"
+          >
+            Desarrollo y mantenimiento de aplicacion de escritorio
+          </ExperienceBox>
+          <ExperienceBox
+            date="Julio 2020-Actualidad"
+            position="TraineeSoftware Developer"
+            place="okkralabs Inc"
+          >
+            Desarrollo y mantenimiento de pagina web.
           </ExperienceBox>
         </LeftColumn>
         <RightColumn>
           <SkillsList name="Educación" icon={FaGraduationCap}>
-            <SkillsItem date="Junio 1835" institution="Universidad de Londres">
-              Matemática
+            <SkillsItem date="Agosto 2020" institution="Instituto Tecnológico de las Américas (ITLA)">
+              Tecnologia en Desarrollo De Software
             </SkillsItem>
-            <SkillsItem date="Enero 1830">Escritora</SkillsItem>
           </SkillsList>
+          <SkillsList name="Cursos">
+            <SkillsItem date="2017" institution="Instituto Tecnológico de las Américas (ITLA)">
+            Introducción a la programación C++
+            </SkillsItem>
+            <SkillsItem date="2018" institution="Instituto Tecnológico de las Américas (ITLA)">
+              Mysql para Programadores
+            </SkillsItem>
+            <SkillsItem date="2018" institution="Instituto Tecnológico de las Américas (ITLA)">
+             Java Básico
+            </SkillsItem>
+            <SkillsItem date="2018" institution="Instituto Tecnológico de las Américas (ITLA)">
+              Java Intermedio
+            </SkillsItem>
+            <SkillsItem date="2019" institution="Instituto Tecnológico de las Américas (ITLA) y MMujer">
+              Programación web html & php
+            </SkillsItem>
+            <SkillsItem date="2019" institution="Instituto Tecnológico de las Américas (ITLA)">
+            -Diplomado de Inteligencia Artificial
+            </SkillsItem>
+            </SkillsList>
           <SkillsList name="Contacto" icon={GrContactInfo}>
-            <SkillsItem>123-456-789</SkillsItem>
+            <SkillsItem>+1-829-872-0728</SkillsItem>
             <SkillsItem>
               <a
-                href="mailto:ada@ada-school.org"
+                href="mailto:carmenmasato@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ada@ada-school.org
+                carmenmasato@gmail.com
               </a>
             </SkillsItem>
             <SkillsItem>
-              <a
-                href="https://ada-school.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ada-school.org
-              </a>
-            </SkillsItem>
-            <SkillsItem>
-              Urban Rd, Nottingham NG17 8AH, United Kingdom
+              Calle 2 Edif. Shantal II No. 25, El Millón.
             </SkillsItem>
           </SkillsList>
           <SkillsList name="Lenguajes y Frameworks" icon={DiCode}>
@@ -90,28 +113,31 @@ export default function Home() {
             <SkillsItem>Node.js</SkillsItem>
             <SkillsItem>JavaScript</SkillsItem>
             <SkillsItem>MongoDB</SkillsItem>
-            <SkillsItem>PWA</SkillsItem>
-            <SkillsItem>Typescript</SkillsItem>
+            <SkillsItem>C++</SkillsItem>
+            <SkillsItem>C#</SkillsItem>
+            <SkillsItem>Java</SkillsItem>
+            <SkillsItem>HTML/CSS</SkillsItem>
+            <SkillsItem>PHP</SkillsItem>
+            <SkillsItem>SQL</SkillsItem>
           </SkillsList>
           <SkillsList name="Habilidades técnicas" icon={FaTools}>
-            <SkillsItem>TDD</SkillsItem>
-            <SkillsItem>Continuous Deployment</SkillsItem>
             <SkillsItem>SCRUM</SkillsItem>
           </SkillsList>
           <SkillsList name="Habilidades Blandas" icon={RiUserVoiceFill}>
             <SkillsItem>Comunicación efectiva</SkillsItem>
-            <SkillsItem>Touch typing</SkillsItem>
-            <SkillsItem>Trabajo en equipo</SkillsItem>
+            <SkillsItem>Facilidad para trabajos en equipos</SkillsItem>
+            <SkillsItem>Actitud de liderazgo</SkillsItem>
+            <SkillsItem>Creatividad para resolver problemas</SkillsItem>
           </SkillsList>
           <SkillsList name="Intereses" icon={FaFlagCheckered}>
             <SkillsItem>Inteligencia artificial</SkillsItem>
-            <SkillsItem>Patrones de UI / UX</SkillsItem>
-            <SkillsItem>AR / VR</SkillsItem>
+            <SkillsItem>Desarrollo de aplicaciones moviles</SkillsItem>
+
           </SkillsList>
           <SkillsList name="Idiomas" icon={BsChatFill}>
-            <SkillsItem>Inglés</SkillsItem>
-            <SkillsItem>Francés</SkillsItem>
-            <SkillsItem>Español</SkillsItem>
+            <SkillsItem>Inglés (Avanzado)</SkillsItem>
+            <SkillsItem>Español (Nativo)</SkillsItem>
+            <SkillsItem>Francés (Basico)</SkillsItem>
           </SkillsList>
         </RightColumn>
       </Layout>
